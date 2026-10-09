@@ -189,7 +189,7 @@ pyasn1==0.6.3
 pyasn1_modules==0.4.2
 pyclipper==1.4.0
 pycparser==3.0
-pydantic==2.7.1
+pydantic==2.9.2
 pydantic-settings==2.15.0
 pydantic_core==2.18.2
 pydeck==0.9.2
