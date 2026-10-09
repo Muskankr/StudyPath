@@ -9,6 +9,8 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+# Backward compatibility for existing services.
+MODEL = GEMINI_MODEL
 
 # Allow the backend to start even when AI is not configured.
 client = (
